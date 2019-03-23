@@ -1,0 +1,90 @@
+/* Autour :  Amirhossein Azimyzadeh
+ Spring 2019 based on freeCodeCamp.org free tutorial on youtube (C) */
+@import url('https://fonts.googleapis.com/css?family=Asap:700,700i');
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:rgb(30, 9, 51);
+}
+header{
+    background: white;
+    padding: 20px;
+}
+header > h1 {
+    color: rebeccapurple;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+.score-board{
+    position: relative;
+    margin:15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-family: Asap, sans-serif;
+    width: 250px;
+    background: white;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.badge{
+    background:rebeccapurple;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    width: fit-content;
+    padding: 4px;
+}
+#user-lable{
+    position: relative;
+    top:20px;
+    left:-40px;
+}
+#computer-lable{
+    position: absolute;
+    top:20px;
+    right:-40;
+}
+.result{
+    font-family: Asap, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rebeccapurple;
+    background: white;
+    width: fit-content;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    font-weight: lighter;
+    transition: all 0.3s ease;
+}
+.choices{
+    margin-top: 15px;
+    text-align: center;
+}
+.choice{
+    padding: 10px;
+    display: inline-block;
+    background: white;
+    border-radius: 50%;
+    margin: 5px;
+    transition: all 0.5s ease;
+}
+.choice:hover{
+    cursor: pointer;
+    background: rgb(172, 172, 172);
+}
+#action-message{
+    text-align: center;
+    font-family: Asap,sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
