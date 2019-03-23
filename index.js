@@ -66,7 +66,7 @@ function updateUI(winState,computerAction,userAction){
     if(winState==1){
         result = result+" , you win !";
     }else if(winState == 0){
-        result =result +" , you lose";
+        result =result +" , you lost";
     }else{
         result ="!! DRAW !!";
     }
