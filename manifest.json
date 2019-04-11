@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name" : "RPS",
+    "version" : "1.0",
+    "description" : "simple game " ,
+
+    "browser_action" :{
+        "default_popup" : "page.html"
+    }
+}
